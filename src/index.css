@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #111;
+  color: white;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.logo {
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 60px;
+  color: #00ff9f;
+}
+
+.choices {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.choice-btn {
+  background-color: #00c471;
+  color: white;
+  padding: 16px 32px;
+  border-radius: 12px;
+  font-size: 1.2rem;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+  text-align: center;
+  width: 300px;
+}
+
+.choice-btn:hover {
+  background-color: #00a65a;
+}
